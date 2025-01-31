@@ -1,0 +1,112 @@
+{
+  "scopeName": "source.pine",
+  "patterns": [
+    {
+      "match": "//.*$",
+      "name": "comment.line.pine"
+    },
+    {
+      "match": "/\\*[^*]*\\*+(?:[^/*][^*]*\\*+)*/",
+      "name": "comment.block.pine"
+    },
+    {
+      "match": "\\b\\d+(\\.\\d+)?\\b",
+      "name": "constant.numeric.pine"
+    },
+    {
+      "match": "\\b(na|nz|undefined|true|false)\\b",
+      "name": "constant.language.pine"
+    },
+    {
+      "match": "\\b(?![A-Z]+[a-z])([A-Z][A-Z0-9_]*)[A-Z0-9]\\b",
+      "name": "constant.other.pine"
+    },
+    {
+      "match": "=>",
+      "name": "keyword.operator.arrow.pine"
+    },
+    {
+      "match": "==|!=|>=|<=|>|<",
+      "name": "keyword.operator.comparison.pine"
+    },
+    {
+      "match": "\\?|\\:",
+      "name": "keyword.operator.ternary.pine"
+    },
+    {
+      "match": "\\*|\\+|\\-|\\/|\\%",
+      "name": "keyword.operator.arithmetic.pine"
+    },
+    {
+      "match": "=(?![=>])",
+      "name": "keyword.operator.assignment.pine"
+    },
+    {
+      "match": "\\b(else\\s+if|if|else)\\b",
+      "name": "keyword.control.conditional.pine"
+    },
+    {
+      "match": "\\b(if|else|for|while|return|break|continue|and|or|not|switch|case)\\b",
+      "name": "keyword.control.pine"
+    },
+    {
+      "match": "\\b(title|overlay|minval|maxval|group|options|style|linewidth|editable|tooltip|color|size|xloc|max_labels_count|max_bars_back|width|x1|y1|x2|y2|x|y|text|textcolor)\\b(?=\\s*?=)",
+      "name": "entity.name.tag.argument.pine"
+    },
+    {
+      "match": "\\b(int|float|bool|string|color|line|label|array|str)\\b",
+      "name": "storage.type.pine"
+    },
+    {
+      "match": "\\b(var|import)\\b",
+      "name": "storage.modifier.pine"
+    },
+    {
+      "match": "\\b(line\\.|label\\.|math\\.|ta\\.|color\\.|plot|hline|fill|strategy\\.|alertcondition)\\b",
+      "name": "support.function.pine"
+    },
+    {
+      "match": "\\b([a-zA-Z_][a-zA-Z0-9_]*)\\s*(:=)",
+      "captures": {
+        "1": {
+          "name": "support.variable.reassignment.pine"
+        },
+        "2": {
+          "name": "keyword.operator.assignment.pine"
+        }
+      }
+    },
+    {
+      "match": "\\b([a-zA-Z_][a-zA-Z0-9_]*)\\s*(?==\\s*(?:input|strategy|label|line)\\.[a-zA-Z_][a-zA-Z0-9_]*\\()",
+      "captures": {
+        "1": {
+          "name": "variable.declaration.pine"
+        }
+      }
+    },
+    {
+      "match": "(?<!\\.)\\b(price|close|open|high|low|volume)\\b",
+      "name": "variable.language.pine"
+    },
+    {
+      "match": "\\b(?!(if|else\\s+if|else|while|for|switch)\\b)([a-zA-Z_][a-zA-Z0-9_]*)\\s*\\(",
+      "captures": {
+        "2": {
+          "name": "entity.name.function.pine"
+        }
+      }
+    },
+    {
+      "match": "\\b(?!(if|else\\s+if|else|while|for|switch)\\b)([a-zA-Z_][a-zA-Z0-9_]*)\\s*=>",
+      "captures": {
+        "2": {
+          "name": "entity.name.function.declaration.pine"
+        }
+      }
+    },
+    {
+      "match": "\"[^\"]*\"",
+      "name": "string.quoted.double.pine"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "Pine Script Light",
+  "type": "light",
+  "colors": {
+    "editor.background": "#F8F8F8",
+    "editor.foreground": "#2A2A2A",
+    "statusBar.background": "#E0E0E0",
+    "statusBar.foreground": "#2A2A2A",
+    "statusBar.noFolderBackground": "#E0E0E0",
+    "statusBar.debuggingBackground": "#E0E0E0"
+  },
+  "tokenColors": [
+    // Control flow
+    {
+      "scope": ["keyword.control.pine", "keyword.control.conditional.pine"],
+      "settings": { "foreground": "#D000D0" }  // Purple
+    },
+    
+    // Functions
+    {
+      "scope": ["entity.name.function.pine", "entity.name.function.declaration.pine"],
+      "settings": { "foreground": "#005F87" }  // Dark blue
+    },
+    
+    // Variables
+    {
+      "scope": "variable.declaration.pine",
+      "settings": { "foreground": "#007200" }  // Dark green
+    },
+    {
+      "scope": "support.variable.reassignment.pine",
+      "settings": { "foreground": "#B58900" }  // Mustard
+    },
+    {
+      "scope": "keyword.operator.assignment.pine",
+      "settings": { "foreground": "#666666" }  // Medium gray
+    },
+    {
+      "scope": "variable.language.pine",
+      "settings": { "foreground": "#D70000" }  // Dark red
+    },
+    
+    // Types
+    {
+      "scope": "storage.type.pine",
+      "settings": { "foreground": "#008080" }  // Teal
+    },
+    
+    // Constants
+    {
+      "scope": "constant.language.pine",
+      "settings": { "foreground": "#D000D0" }  // Purple
+    },
+    {
+      "scope": "constant.numeric.pine",
+      "settings": { "foreground": "#005F87" }  // Dark blue
+    },
+    
+    // Operators
+    {
+      "scope": [
+        "keyword.operator.comparison.pine",
+        "keyword.operator.ternary.pine",
+        "keyword.operator.arithmetic.pine"
+      ],
+      "settings": { "foreground": "#666666" }  // Medium gray
+    },
+    {
+      "scope": "keyword.operator.arrow.pine",
+      "settings": { "foreground": "#666666" }  // Medium gray
+    },
+    
+    // Strings
+    {
+      "scope": "string.quoted.double.pine",
+      "settings": { "foreground": "#007200" }  // Dark green
+    },
+    
+    // Comments
+    {
+      "scope": "comment.line.pine",
+      "settings": { "foreground": "#6A737D" }  // Gray-blue
+    },
+    
+    // Built-in functions
+    {
+      "scope": "support.function.pine",
+      "settings": { "foreground": "#005F87" }  // Dark blue
+    },
+    
+    // Parameters
+    {
+      "scope": "entity.name.tag.pine",
+      "settings": { "foreground": "#B58900" }  // Mustard
+    },
+    {
+      "scope": "constant.other.pine",
+      "settings": { "foreground": "#008080" }  // Teal
+    },
+    {
+      "scope": "storage.modifier.pine",
+      "settings": { "foreground": "#D000D0" }  // Purple
+    },
+    {
+      "scope": "entity.name.tag.argument.pine",
+      "settings": { "foreground": "#B58900" }  // Mustard
+    }
+  ]
+} 

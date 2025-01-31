@@ -1,0 +1,51 @@
+{
+  "name": "pine-script-syntax",
+  "displayName": "Pine Script Syntax",
+  "description": "Syntax highlighting for Pine Script files (.pine) used in TradingView.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "pine-script",
+      "aliases": ["Pine Script", "pine-script"],
+      "extensions": [".pine"],
+      "configuration": "./language-configuration.json"
+    }],
+    "themes": [
+      {
+        "label": "Pine Script Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/pine-script-color-theme.json"
+      },
+      {
+        "label": "Pine Script Neon Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/pine-script-neon-dark.json"
+      },
+      {
+        "label": "Pine Script Dimmed Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/pine-script-dimmed-dark.json"
+      },
+      {
+        "label": "Pine Script Light",
+        "uiTheme": "vs",
+        "path": "./themes/pine-script-light-theme.json"
+      }
+    ],
+    "grammars": [{
+      "language": "pine-script",
+      "scopeName": "source.pine",
+      "path": "./syntaxes/pine-script.tmLanguage.json"
+    }]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/your-repo-name.git"
+  }
+}

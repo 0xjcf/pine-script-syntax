@@ -1,0 +1,13 @@
+.vscode/**
+.vscode-test/**
+.gitignore
+vsc-extension-quickstart.md
+
+1|**/*.map
+2|**/.eslintrc.json
+3|**/*.ts
+4|src/test/
+5|out/test/
+6|images/syntax-example.pine
+7|CONTRIBUTING.md
+8|CHANGELOG.md
