@@ -1,50 +1,34 @@
 # pine-script-syntax README
 
-This extension provides syntax highlighting and language support for Pine Script, the programming language used in TradingView.
+This extension provides syntax highlighting and theme support for Pine Script, the programming language used in TradingView.
 
 ## Features
 
-* Full Pine Script syntax highlighting
-* Code snippets for common Pine Script patterns
-* Basic autocompletion for Pine Script functions and variables
-* Syntax validation for Pine Script code
+* **Syntax Highlighting** for:
+  - Control flow keywords (`if`, `else`, `return`)
+  - Built-in functions and variables
+  - Variable declarations and assignments
+  - Numeric constants and literals
+  - Comments (line and block)
+  - Operators (arithmetic, comparison, ternary)
+  - String literals
 
-### Included Themes
-- **Pine Script Dark** - Default theme with balanced colors
-- **Pine Script Neon Dark** - High-contrast cyberpunk-style theme
-- **Pine Script Dimmed Dark** - Low-contrast theme for extended coding sessions
-- **Pine Script Light** - Light theme with accessibility-optimized colors
+* **Multiple Themes**:
+  - Pine Script Dark (Default)
+  - Pine Script Neon Dark
+  - Pine Script Dimmed Dark  
+  - Pine Script Light
 
 All themes include:
 - Colorblind-friendly palettes
 - Semantic syntax highlighting
-- Consistent visual hierarchy
 - 4.5:1 minimum contrast ratios (WCAG AA compliant)
 
-![Pine Script Syntax Example](https://raw.githubusercontent.com/0xjcf/pine-script-syntax/main/images/syntax-example.png)
+![Syntax Example](https://raw.githubusercontent.com/0xjcf/pine-script-syntax/main/images/syntax-example.png)
 
 ## Requirements
 
 * Visual Studio Code 1.60.0 or higher
-* No additional dependencies required
-
-## Extension Settings
-
-This extension contributes the following settings:
-
-* `pine-script-syntax.enable`: Enable/disable this extension
-* `pine-script-syntax.snippetSuggestions`: Enable/disable code snippets
-* `pine-script-syntax.autoComplete`: Enable/disable autocomplete
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-### 1.0.0
-
-Initial release of Pine Script syntax support
 
 ## Installation
 
@@ -61,8 +45,21 @@ To choose a theme:
 2. Search for "Preferences: Color Theme"
 3. Select from the Pine Script themes:
    - Pine Script Dark
-   - Pine Script Neon Dark  
+   - Pine Script Neon Dark
    - Pine Script Dimmed Dark
    - Pine Script Light
 
-![Theme Selector](https://raw.githubusercontent.com/your-username/your-repo-name/main/images/syntax-example.png)
+## Known Issues
+
+* No code validation or autocomplete yet
+* Limited operator tokenization
+* No snippet support currently
+
+## Release Notes
+
+### 1.0.0
+
+Initial release with:
+- Basic Pine Script syntax highlighting
+- 4 color themes
+- Language configuration (brackets/comments)
