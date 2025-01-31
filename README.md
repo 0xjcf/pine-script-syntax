@@ -21,7 +21,7 @@ All themes include:
 - Consistent visual hierarchy
 - 4.5:1 minimum contrast ratios (WCAG AA compliant)
 
-\!\[Pine Script Syntax Example\]\(images/syntax-example.png\)
+![Pine Script Syntax Example](https://raw.githubusercontent.com/0xjcf/pine-script-syntax/main/images/syntax-example.png)
 
 ## Requirements
 
