@@ -3,7 +3,7 @@
   "name": "pine-script-syntax",
   "displayName": "Pine Script Syntax",
   "description": "Syntax highlighting for Pine Script files (.pine) used in TradingView.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.96.0"
   },
