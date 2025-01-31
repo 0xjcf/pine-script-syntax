@@ -1,14 +1,20 @@
 {
-  "publisher": "0xjcf",
   "name": "pine-script-syntax",
   "displayName": "Pine Script Syntax",
   "description": "Syntax highlighting for Pine Script files (.pine) used in TradingView.",
-  "version": "0.0.4",
+  "icon": "images/logo.png",
+  "version": "0.0.5",
+  "publisher": "0xjcf",
+  "license": "MIT",
   "engines": {
     "vscode": "^1.93.1"
   },
+  "author": {
+    "name": "0xjcf",
+    "url": "https://github.com/0xjcf"
+  },
   "categories": [
-    "Programming Languages"
+    "Programming Languages", "Themes"
   ],
   "contributes": {
     "languages": [{
@@ -48,6 +54,5 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/0xjcf/pine-script-syntax.git"
-  },
-  "icon": "images/logo.png"
+  }
 }
