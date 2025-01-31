@@ -1,4 +1,5 @@
 {
+  "publisher": "0xjcf",
   "name": "pine-script-syntax",
   "displayName": "Pine Script Syntax",
   "description": "Syntax highlighting for Pine Script files (.pine) used in TradingView.",
