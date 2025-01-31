@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+  width="128"
+  height="128"
+  viewBox="0 0 128 128"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <!-- Background (optional: remove for transparency) -->
+  <rect width="128" height="128" fill="#1E1E1E" />
+
+  <!-- Green Triangle (Pine Tree) -->
+  <polygon
+    points="64,20 32,100 96,100"
+    fill="#00875A"
+  />
+
+  <!-- Adjusted White Zigzag Line -->
+  <polyline
+    points="32,100 50,60 60,75 64,20 96,100"
+    stroke="#F4F4F4"
+    stroke-width="2.5"
+    fill="none"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <!-- Circles at each pivot point (Final Adjustments) -->
+  <circle cx="32" cy="100" r="4" fill="#F4F4F4"/> <!-- Pivot 1 (Bottom-left corner of the triangle) -->
+  <circle cx="50" cy="60" r="4" fill="#F4F4F4"/> <!-- Pivot 2 -->
+  <circle cx="60" cy="75" r="4" fill="#F4F4F4"/> <!-- Pivot 3 -->
+  <circle cx="64" cy="20" r="4" fill="#F4F4F4"/> <!-- Pivot 4 (Top of Triangle) -->
+  <circle cx="96" cy="100" r="4" fill="#F4F4F4"/> <!-- Pivot 5 (Bottom-right corner of the triangle) -->
+
+  <!-- Text (Added More Margin Below Tree) -->
+  <text
+    x="64"
+    y="118"
+    fill="#F4F4F4"
+    font-family="Arial, sans-serif"
+    font-size="12"
+    text-anchor="middle"
+  >
+    Pine Script Syntax
+  </text>
+</svg>

@@ -1,4 +1,4 @@
-# pine-script-syntax README
+# pine-script-syntax
 
 This extension provides syntax highlighting and theme support for Pine Script, the programming language used in TradingView.
 
