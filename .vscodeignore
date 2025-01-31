@@ -8,6 +8,5 @@ vsc-extension-quickstart.md
 3|**/*.ts
 4|src/test/
 5|out/test/
-6|images/syntax-example.pine
 7|CONTRIBUTING.md
 8|CHANGELOG.md
